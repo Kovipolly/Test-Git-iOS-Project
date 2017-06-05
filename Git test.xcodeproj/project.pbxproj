@@ -15,6 +15,7 @@
 		BE9D99B51EE6187E00B4C6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9D99B31EE6187E00B4C6D2 /* LaunchScreen.storyboard */; };
 		BE9D99C01EE6187E00B4C6D2 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D99BF1EE6187E00B4C6D2 /* Git_testTests.m */; };
 		BE9D99CB1EE6187E00B4C6D2 /* Git_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D99CA1EE6187E00B4C6D2 /* Git_testUITests.m */; };
+		BE9D99DA1EE6226400B4C6D2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9D99D91EE6226400B4C6D2 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BE9D99C61EE6187E00B4C6D2 /* Git testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9D99CA1EE6187E00B4C6D2 /* Git_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testUITests.m; sourceTree = "<group>"; };
 		BE9D99CC1EE6187E00B4C6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9D99D81EE6226400B4C6D2 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		BE9D99D91EE6226400B4C6D2 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BE9D99B31EE6187E00B4C6D2 /* LaunchScreen.storyboard */,
 				BE9D99B61EE6187E00B4C6D2 /* Info.plist */,
 				BE9D99A51EE6187E00B4C6D2 /* Supporting Files */,
+				BE9D99D81EE6226400B4C6D2 /* Test.h */,
+				BE9D99D91EE6226400B4C6D2 /* Test.m */,
 			);
 			path = "Git test";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9D99AD1EE6187E00B4C6D2 /* ViewController.m in Sources */,
+				BE9D99DA1EE6226400B4C6D2 /* Test.m in Sources */,
 				BE9D99AA1EE6187E00B4C6D2 /* AppDelegate.m in Sources */,
 				BE9D99A71EE6187E00B4C6D2 /* main.m in Sources */,
 			);
